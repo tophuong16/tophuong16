@@ -1,5 +1,3 @@
-## Hi there 👋
-
 import SoftwareDeveloper from 'hochiminh';
 import { Languages, Frameworks, Cms } from 'huuha/skills';
 
@@ -15,4 +13,3 @@ class Skills extends SoftwareDeveloper {
   frameworks = ['Vue', 'React', 'Next.js', 'Laravel', 'React Native', ...Frameworks];
   cms        = ['Wordpress', 'Magento', 'Opencart', ...Cms];
 }
-
