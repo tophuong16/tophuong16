@@ -1,16 +1,18 @@
 ## Hi there 👋
 
-<!--
-**tophuong16/tophuong16** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+import SoftwareDeveloper from 'hochiminh';
+import { Languages, Frameworks, Cms } from 'huuha/skills';
 
-Here are some ideas to get you started:
+class Bio extends SoftwareDeveloper {
+  name     = 'Nguyen Huu Ha';
+  title    = 'Senior Software Developer';
+  location = 'Thu Duc, Ho Chi Minh, Viet Nam';
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Skills extends SoftwareDeveloper {
+  languages  = ['JavaScript', 'TypeScript', 'PHP', 'Python', ...Languages];
+  databases  = ['MySQL', 'MongoDB', 'PostgreSQL'];
+  frameworks = ['Vue', 'React', 'Next.js', 'Laravel', 'React Native', ...Frameworks];
+  cms        = ['Wordpress', 'Magento', 'Opencart', ...Cms];
+}
+
