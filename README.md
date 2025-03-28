@@ -1,10 +1,11 @@
-import SoftwareDeveloper from 'hochiminh';
-import { Languages, Frameworks, Cms } from 'huuha/skills';
+```javascript
+import SoftwareDeveloper from 'hanoi';
+import { Languages, Frameworks, Cms } from 'phuong/skills';
 
 class Bio extends SoftwareDeveloper {
-  name     = 'Nguyen Huu Ha';
+  name     = 'Nguyen Thi To Phuong';
   title    = 'Senior Software Developer';
-  location = 'Thu Duc, Ho Chi Minh, Viet Nam';
+  location = 'Ha Noi, Viet Nam';
 }
 
 class Skills extends SoftwareDeveloper {
@@ -13,3 +14,5 @@ class Skills extends SoftwareDeveloper {
   frameworks = ['Vue', 'React', 'Next.js', 'Laravel', 'React Native', ...Frameworks];
   cms        = ['Wordpress', 'Magento', 'Opencart', ...Cms];
 }
+
+```
